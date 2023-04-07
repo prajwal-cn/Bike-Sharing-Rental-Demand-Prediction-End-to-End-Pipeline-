@@ -1,0 +1,5 @@
+[2023-02-09 17:19:19,063] root - INFO - Training Pipeline Config: TrainingPipelineConfig(artifact_dir='D:\\Project\\class project\\Rental_Bike_Share_Prediction-final\\Rental_Bike_Share_Prediction-main\\rental_bike_demand\\artifact')
+[2023-02-09 17:19:21,939] root - INFO - Training Pipeline Config: TrainingPipelineConfig(artifact_dir='D:\\Project\\class project\\Rental_Bike_Share_Prediction-final\\Rental_Bike_Share_Prediction-main\\rental_bike_demand\\artifact')
+[2023-02-09 17:19:21,995] werkzeug - INFO -  * Restarting with windowsapi reloader
+[2023-02-09 17:19:38,346] werkzeug - INFO -  * Restarting with windowsapi reloader
+[2023-02-09 17:20:45,218] werkzeug - INFO -  * Restarting with windowsapi reloader

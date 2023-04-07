@@ -1,0 +1,191 @@
+[2023-02-07 04:13:23,582] root - INFO - Training Pipeline Config: TrainingPipelineConfig(artifact_dir='D:\\Project\\class project\\Rental_Bike_Share_Prediction-main\\Rental_Bike_Share_Prediction-main\\rental_bike_demand\\artifact')
+[2023-02-07 04:13:24,222] root - INFO - Training Pipeline Config: TrainingPipelineConfig(artifact_dir='D:\\Project\\class project\\Rental_Bike_Share_Prediction-main\\Rental_Bike_Share_Prediction-main\\rental_bike_demand\\artifact')
+[2023-02-07 04:13:24,231] werkzeug - WARNING -  * Debugger is active!
+[2023-02-07 04:13:24,239] werkzeug - INFO -  * Debugger PIN: 197-042-164
+[2023-02-07 04:13:42,262] werkzeug - INFO - 127.0.0.1 - - [07/Feb/2023 04:13:42] "GET / HTTP/1.1" 200 -
+[2023-02-07 04:14:08,072] root - INFO - 
+******************** Prediction Pipeline Initiated ********************
+
+[2023-02-07 04:14:08,072] root - INFO - Data Validation config: DataValidationConfig(schema_file_path='D:\\Project\\class project\\Rental_Bike_Share_Prediction-main\\Rental_Bike_Share_Prediction-main\\config\\schema.yaml', report_file_path='D:\\Project\\class project\\Rental_Bike_Share_Prediction-main\\Rental_Bike_Share_Prediction-main\\rental_bike_demand\\artifact\\data_validation\\2023-02-07-04-13-22\\report.json', report_page_file_path='D:\\Project\\class project\\Rental_Bike_Share_Prediction-main\\Rental_Bike_Share_Prediction-main\\rental_bike_demand\\artifact\\data_validation\\2023-02-07-04-13-22\\report.html')
+[2023-02-07 04:14:08,578] root - INFO - ******************** Single Prediction Mode Selected ********************
+[2023-02-07 04:14:08,578] root - INFO - Passed Info: [{'date': '2018-02-05', 'month': 2, 'hour': 12, 'season': 1, 'weekday': 1, 'is_holiday': 0, 'working_day': 1, 'weather_sit': 1, 'is_covid': 0, 'temp': 30.0, 'wind': 14.0, 'humidity': 15.0}]
+[2023-02-07 04:14:08,623] root - INFO - ******************** Single Prediction Complete ********************
+[2023-02-07 04:14:08,627] werkzeug - INFO - 127.0.0.1 - - [07/Feb/2023 04:14:08] "[32mPOST /single_predict HTTP/1.1[0m" 302 -
+[2023-02-07 04:14:08,633] werkzeug - INFO - 127.0.0.1 - - [07/Feb/2023 04:14:08] "GET / HTTP/1.1" 200 -
+[2023-02-07 04:17:36,048] root - INFO - 
+******************** Prediction Pipeline Initiated ********************
+
+[2023-02-07 04:17:36,048] root - INFO - Data Validation config: DataValidationConfig(schema_file_path='D:\\Project\\class project\\Rental_Bike_Share_Prediction-main\\Rental_Bike_Share_Prediction-main\\config\\schema.yaml', report_file_path='D:\\Project\\class project\\Rental_Bike_Share_Prediction-main\\Rental_Bike_Share_Prediction-main\\rental_bike_demand\\artifact\\data_validation\\2023-02-07-04-13-22\\report.json', report_page_file_path='D:\\Project\\class project\\Rental_Bike_Share_Prediction-main\\Rental_Bike_Share_Prediction-main\\rental_bike_demand\\artifact\\data_validation\\2023-02-07-04-13-22\\report.html')
+[2023-02-07 04:17:36,089] root - INFO - ********************Bulk Prediction Mode Selected ********************
+[2023-02-07 04:17:36,090] root - INFO - Validatiog Passed Dataset : [Prediction_Batch_Files\Rental_Bike_Share_Data_20180101_120000.csv]
+[2023-02-07 04:17:36,099] root - INFO - Validating the schema of the dataset
+[2023-02-07 04:17:36,378] root - ERROR - 
+        Error occured in script: [D:\Project\class project\Rental_Bike_Share_Prediction-main\Rental_Bike_Share_Prediction-main\Prediction_Application\pipeline\prediction_pipeline.py] at 
+        line number: [53] 
+        error message: [
+        Error occured in script: [D:\Project\class project\Rental_Bike_Share_Prediction-main\Rental_Bike_Share_Prediction-main\Prediction_Application\components\data_validation.py] at 
+        line number: [83] 
+        error message: [
+        Error occured in script: [D:\Project\class project\Rental_Bike_Share_Prediction-main\Rental_Bike_Share_Prediction-main\Prediction_Application\components\data_validation.py] at 
+        line number: [54] 
+        error message: [No of columns is not correct in file: [Prediction_Batch_Files\Rental_Bike_Share_Data_20180101_120000.csv]!!!]]]
+[2023-02-07 04:17:36,384] root - INFO - Prediction Dataset Validation log complete
+[2023-02-07 04:17:36,388] werkzeug - INFO - 127.0.0.1 - - [07/Feb/2023 04:17:36] "[32mPOST /bulk_predict HTTP/1.1[0m" 302 -
+[2023-02-07 04:17:36,706] werkzeug - INFO - 127.0.0.1 - - [07/Feb/2023 04:17:36] "GET / HTTP/1.1" 200 -
+[2023-02-07 04:26:20,220] root - ERROR - [Errno 2] No such file or directory: 'Prediction_Batch_Files\\'
+[2023-02-07 04:26:20,221] werkzeug - INFO - 127.0.0.1 - - [07/Feb/2023 04:26:20] "[32mPOST /bulk_predict HTTP/1.1[0m" 302 -
+[2023-02-07 04:26:20,225] werkzeug - INFO - 127.0.0.1 - - [07/Feb/2023 04:26:20] "GET / HTTP/1.1" 200 -
+[2023-02-07 04:26:41,963] root - INFO - 
+******************** Prediction Pipeline Initiated ********************
+
+[2023-02-07 04:26:41,963] root - INFO - Data Validation config: DataValidationConfig(schema_file_path='D:\\Project\\class project\\Rental_Bike_Share_Prediction-main\\Rental_Bike_Share_Prediction-main\\config\\schema.yaml', report_file_path='D:\\Project\\class project\\Rental_Bike_Share_Prediction-main\\Rental_Bike_Share_Prediction-main\\rental_bike_demand\\artifact\\data_validation\\2023-02-07-04-13-22\\report.json', report_page_file_path='D:\\Project\\class project\\Rental_Bike_Share_Prediction-main\\Rental_Bike_Share_Prediction-main\\rental_bike_demand\\artifact\\data_validation\\2023-02-07-04-13-22\\report.html')
+[2023-02-07 04:26:42,010] root - INFO - ********************Bulk Prediction Mode Selected ********************
+[2023-02-07 04:26:42,010] root - INFO - Validatiog Passed Dataset : [Prediction_Batch_Files\Rental_Bike_Share_Data_20181231_231206.csv]
+[2023-02-07 04:26:42,026] root - INFO - Validating the schema of the dataset
+[2023-02-07 04:26:42,073] root - ERROR - 
+        Error occured in script: [D:\Project\class project\Rental_Bike_Share_Prediction-main\Rental_Bike_Share_Prediction-main\Prediction_Application\pipeline\prediction_pipeline.py] at 
+        line number: [53] 
+        error message: [
+        Error occured in script: [D:\Project\class project\Rental_Bike_Share_Prediction-main\Rental_Bike_Share_Prediction-main\Prediction_Application\components\data_validation.py] at 
+        line number: [83] 
+        error message: [
+        Error occured in script: [D:\Project\class project\Rental_Bike_Share_Prediction-main\Rental_Bike_Share_Prediction-main\Prediction_Application\components\data_validation.py] at 
+        line number: [54] 
+        error message: [No of columns is not correct in file: [Prediction_Batch_Files\Rental_Bike_Share_Data_20181231_231206.csv]!!!]]]
+[2023-02-07 04:26:42,073] root - INFO - Prediction Dataset Validation log complete
+[2023-02-07 04:26:42,088] werkzeug - INFO - 127.0.0.1 - - [07/Feb/2023 04:26:42] "[32mPOST /bulk_predict HTTP/1.1[0m" 302 -
+[2023-02-07 04:26:42,088] werkzeug - INFO - 127.0.0.1 - - [07/Feb/2023 04:26:42] "GET / HTTP/1.1" 200 -
+[2023-02-07 04:28:43,119] root - INFO - 
+******************** Prediction Pipeline Initiated ********************
+
+[2023-02-07 04:28:43,119] root - INFO - Data Validation config: DataValidationConfig(schema_file_path='D:\\Project\\class project\\Rental_Bike_Share_Prediction-main\\Rental_Bike_Share_Prediction-main\\config\\schema.yaml', report_file_path='D:\\Project\\class project\\Rental_Bike_Share_Prediction-main\\Rental_Bike_Share_Prediction-main\\rental_bike_demand\\artifact\\data_validation\\2023-02-07-04-13-22\\report.json', report_page_file_path='D:\\Project\\class project\\Rental_Bike_Share_Prediction-main\\Rental_Bike_Share_Prediction-main\\rental_bike_demand\\artifact\\data_validation\\2023-02-07-04-13-22\\report.html')
+[2023-02-07 04:28:43,135] root - INFO - ********************Bulk Prediction Mode Selected ********************
+[2023-02-07 04:28:43,135] root - INFO - Validatiog Passed Dataset : [Prediction_Batch_Files\Rental_Bike_Share_Data_20181231_231206.csv]
+[2023-02-07 04:28:43,150] root - INFO - Validating the schema of the dataset
+[2023-02-07 04:28:43,197] root - ERROR - 
+        Error occured in script: [D:\Project\class project\Rental_Bike_Share_Prediction-main\Rental_Bike_Share_Prediction-main\Prediction_Application\pipeline\prediction_pipeline.py] at 
+        line number: [53] 
+        error message: [
+        Error occured in script: [D:\Project\class project\Rental_Bike_Share_Prediction-main\Rental_Bike_Share_Prediction-main\Prediction_Application\components\data_validation.py] at 
+        line number: [83] 
+        error message: [
+        Error occured in script: [D:\Project\class project\Rental_Bike_Share_Prediction-main\Rental_Bike_Share_Prediction-main\Prediction_Application\components\data_validation.py] at 
+        line number: [54] 
+        error message: [No of columns is not correct in file: [Prediction_Batch_Files\Rental_Bike_Share_Data_20181231_231206.csv]!!!]]]
+[2023-02-07 04:28:43,197] root - INFO - Prediction Dataset Validation log complete
+[2023-02-07 04:28:43,213] werkzeug - INFO - 127.0.0.1 - - [07/Feb/2023 04:28:43] "[32mPOST /bulk_predict HTTP/1.1[0m" 302 -
+[2023-02-07 04:28:43,213] werkzeug - INFO - 127.0.0.1 - - [07/Feb/2023 04:28:43] "GET / HTTP/1.1" 200 -
+[2023-02-07 04:30:17,327] root - INFO - 
+******************** Prediction Pipeline Initiated ********************
+
+[2023-02-07 04:30:17,327] root - INFO - Data Validation config: DataValidationConfig(schema_file_path='D:\\Project\\class project\\Rental_Bike_Share_Prediction-main\\Rental_Bike_Share_Prediction-main\\config\\schema.yaml', report_file_path='D:\\Project\\class project\\Rental_Bike_Share_Prediction-main\\Rental_Bike_Share_Prediction-main\\rental_bike_demand\\artifact\\data_validation\\2023-02-07-04-13-22\\report.json', report_page_file_path='D:\\Project\\class project\\Rental_Bike_Share_Prediction-main\\Rental_Bike_Share_Prediction-main\\rental_bike_demand\\artifact\\data_validation\\2023-02-07-04-13-22\\report.html')
+[2023-02-07 04:30:17,358] root - INFO - ********************Bulk Prediction Mode Selected ********************
+[2023-02-07 04:30:17,358] root - INFO - Validatiog Passed Dataset : [Prediction_Batch_Files\Rental_Bike_Share_Data_20180101_120000.csv]
+[2023-02-07 04:30:17,373] root - INFO - Validating the schema of the dataset
+[2023-02-07 04:30:17,436] root - ERROR - 
+        Error occured in script: [D:\Project\class project\Rental_Bike_Share_Prediction-main\Rental_Bike_Share_Prediction-main\Prediction_Application\pipeline\prediction_pipeline.py] at 
+        line number: [53] 
+        error message: [
+        Error occured in script: [D:\Project\class project\Rental_Bike_Share_Prediction-main\Rental_Bike_Share_Prediction-main\Prediction_Application\components\data_validation.py] at 
+        line number: [83] 
+        error message: [
+        Error occured in script: [D:\Project\class project\Rental_Bike_Share_Prediction-main\Rental_Bike_Share_Prediction-main\Prediction_Application\components\data_validation.py] at 
+        line number: [54] 
+        error message: [No of columns is not correct in file: [Prediction_Batch_Files\Rental_Bike_Share_Data_20180101_120000.csv]!!!]]]
+[2023-02-07 04:30:17,436] root - INFO - Prediction Dataset Validation log complete
+[2023-02-07 04:30:17,436] werkzeug - INFO - 127.0.0.1 - - [07/Feb/2023 04:30:17] "[32mPOST /bulk_predict HTTP/1.1[0m" 302 -
+[2023-02-07 04:30:17,436] werkzeug - INFO - 127.0.0.1 - - [07/Feb/2023 04:30:17] "GET / HTTP/1.1" 200 -
+[2023-02-07 04:40:20,111] root - INFO - 
+******************** Prediction Pipeline Initiated ********************
+
+[2023-02-07 04:40:20,111] root - INFO - Data Validation config: DataValidationConfig(schema_file_path='D:\\Project\\class project\\Rental_Bike_Share_Prediction-main\\Rental_Bike_Share_Prediction-main\\config\\schema.yaml', report_file_path='D:\\Project\\class project\\Rental_Bike_Share_Prediction-main\\Rental_Bike_Share_Prediction-main\\rental_bike_demand\\artifact\\data_validation\\2023-02-07-04-13-22\\report.json', report_page_file_path='D:\\Project\\class project\\Rental_Bike_Share_Prediction-main\\Rental_Bike_Share_Prediction-main\\rental_bike_demand\\artifact\\data_validation\\2023-02-07-04-13-22\\report.html')
+[2023-02-07 04:40:20,160] root - INFO - ********************Bulk Prediction Mode Selected ********************
+[2023-02-07 04:40:20,161] root - INFO - Validatiog Passed Dataset : [Prediction_Batch_Files\Rental_Bike_Share_Data_20181231_231206.csv]
+[2023-02-07 04:40:20,170] root - INFO - Validating the schema of the dataset
+[2023-02-07 04:40:20,209] root - ERROR - 
+        Error occured in script: [D:\Project\class project\Rental_Bike_Share_Prediction-main\Rental_Bike_Share_Prediction-main\Prediction_Application\pipeline\prediction_pipeline.py] at 
+        line number: [53] 
+        error message: [
+        Error occured in script: [D:\Project\class project\Rental_Bike_Share_Prediction-main\Rental_Bike_Share_Prediction-main\Prediction_Application\components\data_validation.py] at 
+        line number: [83] 
+        error message: [
+        Error occured in script: [D:\Project\class project\Rental_Bike_Share_Prediction-main\Rental_Bike_Share_Prediction-main\Prediction_Application\components\data_validation.py] at 
+        line number: [61] 
+        error message: [Column :[total_count] in file: [Prediction_Batch_Files\Rental_Bike_Share_Data_20181231_231206.csv] not available in the Schema!!!]]]
+[2023-02-07 04:40:20,210] root - INFO - Prediction Dataset Validation log complete
+[2023-02-07 04:40:20,215] werkzeug - INFO - 127.0.0.1 - - [07/Feb/2023 04:40:20] "[32mPOST /bulk_predict HTTP/1.1[0m" 302 -
+[2023-02-07 04:40:20,222] werkzeug - INFO - 127.0.0.1 - - [07/Feb/2023 04:40:20] "GET / HTTP/1.1" 200 -
+[2023-02-07 04:43:19,010] root - INFO - 
+******************** Prediction Pipeline Initiated ********************
+
+[2023-02-07 04:43:19,010] root - INFO - Data Validation config: DataValidationConfig(schema_file_path='D:\\Project\\class project\\Rental_Bike_Share_Prediction-main\\Rental_Bike_Share_Prediction-main\\config\\schema.yaml', report_file_path='D:\\Project\\class project\\Rental_Bike_Share_Prediction-main\\Rental_Bike_Share_Prediction-main\\rental_bike_demand\\artifact\\data_validation\\2023-02-07-04-13-22\\report.json', report_page_file_path='D:\\Project\\class project\\Rental_Bike_Share_Prediction-main\\Rental_Bike_Share_Prediction-main\\rental_bike_demand\\artifact\\data_validation\\2023-02-07-04-13-22\\report.html')
+[2023-02-07 04:43:19,027] root - INFO - ********************Bulk Prediction Mode Selected ********************
+[2023-02-07 04:43:19,027] root - INFO - Validatiog Passed Dataset : [Prediction_Batch_Files\Rental_Bike_Share_Data_20201231_235040.csv]
+[2023-02-07 04:43:19,036] root - INFO - Validating the schema of the dataset
+[2023-02-07 04:43:19,102] root - ERROR - 
+        Error occured in script: [D:\Project\class project\Rental_Bike_Share_Prediction-main\Rental_Bike_Share_Prediction-main\Prediction_Application\pipeline\prediction_pipeline.py] at 
+        line number: [53] 
+        error message: [
+        Error occured in script: [D:\Project\class project\Rental_Bike_Share_Prediction-main\Rental_Bike_Share_Prediction-main\Prediction_Application\components\data_validation.py] at 
+        line number: [83] 
+        error message: [
+        Error occured in script: [D:\Project\class project\Rental_Bike_Share_Prediction-main\Rental_Bike_Share_Prediction-main\Prediction_Application\components\data_validation.py] at 
+        line number: [54] 
+        error message: [No of columns is not correct in file: [Prediction_Batch_Files\Rental_Bike_Share_Data_20201231_235040.csv]!!!]]]
+[2023-02-07 04:43:19,104] root - INFO - Prediction Dataset Validation log complete
+[2023-02-07 04:43:19,108] werkzeug - INFO - 127.0.0.1 - - [07/Feb/2023 04:43:19] "[32mPOST /bulk_predict HTTP/1.1[0m" 302 -
+[2023-02-07 04:43:19,116] werkzeug - INFO - 127.0.0.1 - - [07/Feb/2023 04:43:19] "GET / HTTP/1.1" 200 -
+[2023-02-07 04:43:31,643] root - INFO - 
+******************** Prediction Pipeline Initiated ********************
+
+[2023-02-07 04:43:31,643] root - INFO - Data Validation config: DataValidationConfig(schema_file_path='D:\\Project\\class project\\Rental_Bike_Share_Prediction-main\\Rental_Bike_Share_Prediction-main\\config\\schema.yaml', report_file_path='D:\\Project\\class project\\Rental_Bike_Share_Prediction-main\\Rental_Bike_Share_Prediction-main\\rental_bike_demand\\artifact\\data_validation\\2023-02-07-04-13-22\\report.json', report_page_file_path='D:\\Project\\class project\\Rental_Bike_Share_Prediction-main\\Rental_Bike_Share_Prediction-main\\rental_bike_demand\\artifact\\data_validation\\2023-02-07-04-13-22\\report.html')
+[2023-02-07 04:43:31,659] root - INFO - ********************Bulk Prediction Mode Selected ********************
+[2023-02-07 04:43:31,659] root - INFO - Validatiog Passed Dataset : [Prediction_Batch_Files\Rental_Bike_Share_Data_20181231_231206.csv]
+[2023-02-07 04:43:31,668] root - INFO - Validating the schema of the dataset
+[2023-02-07 04:43:31,728] root - ERROR - 
+        Error occured in script: [D:\Project\class project\Rental_Bike_Share_Prediction-main\Rental_Bike_Share_Prediction-main\Prediction_Application\pipeline\prediction_pipeline.py] at 
+        line number: [53] 
+        error message: [
+        Error occured in script: [D:\Project\class project\Rental_Bike_Share_Prediction-main\Rental_Bike_Share_Prediction-main\Prediction_Application\components\data_validation.py] at 
+        line number: [83] 
+        error message: [
+        Error occured in script: [D:\Project\class project\Rental_Bike_Share_Prediction-main\Rental_Bike_Share_Prediction-main\Prediction_Application\components\data_validation.py] at 
+        line number: [54] 
+        error message: [No of columns is not correct in file: [Prediction_Batch_Files\Rental_Bike_Share_Data_20181231_231206.csv]!!!]]]
+[2023-02-07 04:43:31,730] root - INFO - Prediction Dataset Validation log complete
+[2023-02-07 04:43:31,732] werkzeug - INFO - 127.0.0.1 - - [07/Feb/2023 04:43:31] "[32mPOST /bulk_predict HTTP/1.1[0m" 302 -
+[2023-02-07 04:43:31,777] werkzeug - INFO - 127.0.0.1 - - [07/Feb/2023 04:43:31] "GET / HTTP/1.1" 200 -
+[2023-02-07 04:46:42,874] root - INFO - 
+******************** Prediction Pipeline Initiated ********************
+
+[2023-02-07 04:46:42,875] root - INFO - Data Validation config: DataValidationConfig(schema_file_path='D:\\Project\\class project\\Rental_Bike_Share_Prediction-main\\Rental_Bike_Share_Prediction-main\\config\\schema.yaml', report_file_path='D:\\Project\\class project\\Rental_Bike_Share_Prediction-main\\Rental_Bike_Share_Prediction-main\\rental_bike_demand\\artifact\\data_validation\\2023-02-07-04-13-22\\report.json', report_page_file_path='D:\\Project\\class project\\Rental_Bike_Share_Prediction-main\\Rental_Bike_Share_Prediction-main\\rental_bike_demand\\artifact\\data_validation\\2023-02-07-04-13-22\\report.html')
+[2023-02-07 04:46:42,890] root - INFO - ********************Bulk Prediction Mode Selected ********************
+[2023-02-07 04:46:42,891] root - INFO - Validatiog Passed Dataset : [Prediction_Batch_Files\Rental_Bike_Share_Data_20201231_235040.csv]
+[2023-02-07 04:46:42,900] root - INFO - Validating the schema of the dataset
+[2023-02-07 04:46:42,978] root - INFO - Schema Validation Completed
+[2023-02-07 04:46:42,978] root - INFO - Is dataset schema as per the defined schema? -> True
+[2023-02-07 04:46:42,978] root - INFO - Prediction for dataset: [Prediction_Batch_Files\Rental_Bike_Share_Data_20201231_235040.csv]
+[2023-02-07 04:46:43,007] root - INFO - Feature Engineering applied !!!
+[2023-02-07 04:46:43,191] root - INFO - Data Preprocessing Done!!!
+[2023-02-07 04:46:43,282] root - INFO - Prediction from model done
+[2023-02-07 04:46:43,282] root - INFO - Saving prediction file for sending it to the user
+[2023-02-07 04:46:43,586] root - INFO - ******************** Bulk Prediction Coomplete ********************
+[2023-02-07 04:46:43,587] root - INFO - Prediction Dataset Validation log complete
+[2023-02-07 04:46:43,598] werkzeug - INFO - 127.0.0.1 - - [07/Feb/2023 04:46:43] "POST /bulk_predict HTTP/1.1" 200 -
+[2023-02-07 04:49:33,472] root - INFO - 
+******************** Prediction Pipeline Initiated ********************
+
+[2023-02-07 04:49:33,472] root - INFO - Data Validation config: DataValidationConfig(schema_file_path='D:\\Project\\class project\\Rental_Bike_Share_Prediction-main\\Rental_Bike_Share_Prediction-main\\config\\schema.yaml', report_file_path='D:\\Project\\class project\\Rental_Bike_Share_Prediction-main\\Rental_Bike_Share_Prediction-main\\rental_bike_demand\\artifact\\data_validation\\2023-02-07-04-13-22\\report.json', report_page_file_path='D:\\Project\\class project\\Rental_Bike_Share_Prediction-main\\Rental_Bike_Share_Prediction-main\\rental_bike_demand\\artifact\\data_validation\\2023-02-07-04-13-22\\report.html')
+[2023-02-07 04:49:33,518] root - INFO - ********************Bulk Prediction Mode Selected ********************
+[2023-02-07 04:49:33,518] root - INFO - Validatiog Passed Dataset : [Prediction_Batch_Files\Rental_Bike_Share_Data_20201231_235040.csv]
+[2023-02-07 04:49:33,518] root - INFO - Validating the schema of the dataset
+[2023-02-07 04:49:33,603] root - INFO - Schema Validation Completed
+[2023-02-07 04:49:33,603] root - INFO - Is dataset schema as per the defined schema? -> True
+[2023-02-07 04:49:33,603] root - INFO - Prediction for dataset: [Prediction_Batch_Files\Rental_Bike_Share_Data_20201231_235040.csv]
+[2023-02-07 04:49:33,619] root - INFO - Feature Engineering applied !!!
+[2023-02-07 04:49:33,760] root - INFO - Data Preprocessing Done!!!
+[2023-02-07 04:49:33,827] root - INFO - Prediction from model done
+[2023-02-07 04:49:33,827] root - INFO - Saving prediction file for sending it to the user
+[2023-02-07 04:49:34,125] root - INFO - ******************** Bulk Prediction Coomplete ********************
+[2023-02-07 04:49:34,125] root - INFO - Prediction Dataset Validation log complete
+[2023-02-07 04:49:34,140] werkzeug - INFO - 127.0.0.1 - - [07/Feb/2023 04:49:34] "POST /bulk_predict HTTP/1.1" 200 -

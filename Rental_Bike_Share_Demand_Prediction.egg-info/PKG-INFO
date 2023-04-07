@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: Rental-Bike-Share-Demand-Prediction
+Version: 0.0.1ins
+Summary: This application predicts the demand for shared bike in Washington DC for given conditions
+Author: Shivansh Kaushal and Chirag Sharma
+License-File: LICENSE

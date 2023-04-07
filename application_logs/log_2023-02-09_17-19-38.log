@@ -1,0 +1,9 @@
+[2023-02-09 17:19:41,579] root - INFO - Training Pipeline Config: TrainingPipelineConfig(artifact_dir='D:\\Project\\class project\\Rental_Bike_Share_Prediction-final\\Rental_Bike_Share_Prediction-main\\rental_bike_demand\\artifact')
+[2023-02-09 17:19:42,753] root - INFO - Training Pipeline Config: TrainingPipelineConfig(artifact_dir='D:\\Project\\class project\\Rental_Bike_Share_Prediction-final\\Rental_Bike_Share_Prediction-main\\rental_bike_demand\\artifact')
+[2023-02-09 17:19:42,761] werkzeug - WARNING -  * Debugger is active!
+[2023-02-09 17:19:42,766] werkzeug - INFO -  * Debugger PIN: 294-818-109
+[2023-02-09 17:19:42,821] werkzeug - INFO -  * Running on http://0.0.0.0:5003/ (Press CTRL+C to quit)
+[2023-02-09 17:20:43,886] root - ERROR - could not convert string to float: 
+[2023-02-09 17:20:43,889] werkzeug - INFO -  * Detected change in 'C:\\Application\\anaconda\\envs\\bigmart\\Lib\\site-packages\\flask\\__pycache__\\debughelpers.cpython-36.pyc', reloading
+[2023-02-09 17:20:43,891] werkzeug - INFO - 127.0.0.1 - - [09/Feb/2023 17:20:43] "[32mPOST /single_predict HTTP/1.1[0m" 302 -
+[2023-02-09 17:20:43,907] werkzeug - INFO - 127.0.0.1 - - [09/Feb/2023 17:20:43] "[37mGET / HTTP/1.1[0m" 200 -

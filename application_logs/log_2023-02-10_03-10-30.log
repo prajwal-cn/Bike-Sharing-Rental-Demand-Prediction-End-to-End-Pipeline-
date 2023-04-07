@@ -1,0 +1,108 @@
+[2023-02-10 03:10:32,202] root - INFO - Training Pipeline Config: TrainingPipelineConfig(artifact_dir='C:\\Users\\shiva\\Desktop\\Rental_Bike_Share_Prediction-final\\Rental_Bike_Share_Prediction-main\\rental_bike_demand\\artifact')
+[2023-02-10 03:10:32,889] root - INFO - Training Pipeline Config: TrainingPipelineConfig(artifact_dir='C:\\Users\\shiva\\Desktop\\Rental_Bike_Share_Prediction-final\\Rental_Bike_Share_Prediction-main\\rental_bike_demand\\artifact')
+[2023-02-10 03:10:32,899] werkzeug - WARNING -  * Debugger is active!
+[2023-02-10 03:10:32,904] werkzeug - INFO -  * Debugger PIN: 197-042-164
+[2023-02-10 03:10:32,940] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:10:32] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:10:38,607] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:10:38] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:10:57,908] root - INFO - 
+******************** Prediction Pipeline Initiated ********************
+
+[2023-02-10 03:10:57,908] root - INFO - Data Validation config: DataValidationConfig(schema_file_path='C:\\Users\\shiva\\Desktop\\Rental_Bike_Share_Prediction-final\\Rental_Bike_Share_Prediction-main\\config\\schema.yaml', report_file_path='C:\\Users\\shiva\\Desktop\\Rental_Bike_Share_Prediction-final\\Rental_Bike_Share_Prediction-main\\rental_bike_demand\\artifact\\data_validation\\2023-02-10-03-10-31\\report.json', report_page_file_path='C:\\Users\\shiva\\Desktop\\Rental_Bike_Share_Prediction-final\\Rental_Bike_Share_Prediction-main\\rental_bike_demand\\artifact\\data_validation\\2023-02-10-03-10-31\\report.html')
+[2023-02-10 03:10:57,987] root - INFO - ********************Bulk Prediction Mode Selected ********************
+[2023-02-10 03:10:57,987] root - INFO - Validatiog Passed Dataset : [Prediction_Batch_Files\Rental_Bike_Share_Data_20211231_235540.csv]
+[2023-02-10 03:10:57,995] root - INFO - Validating the schema of the dataset
+[2023-02-10 03:10:58,073] root - INFO - Schema Validation Completed
+[2023-02-10 03:10:58,073] root - INFO - Is dataset schema as per the defined schema? -> True
+[2023-02-10 03:10:58,073] root - INFO - Prediction for dataset: [Prediction_Batch_Files\Rental_Bike_Share_Data_20211231_235540.csv]
+[2023-02-10 03:10:58,100] root - INFO - Feature Engineering applied !!!
+[2023-02-10 03:10:58,248] root - INFO - Data Preprocessing Done!!!
+[2023-02-10 03:10:58,310] root - INFO - Prediction from model done
+[2023-02-10 03:10:58,311] root - INFO - Saving prediction file for sending it to the user
+[2023-02-10 03:10:58,469] root - INFO - ******************** Bulk Prediction Coomplete ********************
+[2023-02-10 03:10:58,469] root - INFO - Prediction Dataset Validation log complete
+[2023-02-10 03:10:58,479] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:10:58] "POST /bulk_predict HTTP/1.1" 200 -
+[2023-02-10 03:12:28,192] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:12:28] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:12:30,483] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:12:30] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:12:31,472] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:12:31] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:12:31,793] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:12:31] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:12:32,019] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:12:32] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:12:32,340] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:12:32] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:12:32,542] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:12:32] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:12:37,768] root - INFO - 
+******************** Prediction Pipeline Initiated ********************
+
+[2023-02-10 03:12:37,768] root - INFO - Data Validation config: DataValidationConfig(schema_file_path='C:\\Users\\shiva\\Desktop\\Rental_Bike_Share_Prediction-final\\Rental_Bike_Share_Prediction-main\\config\\schema.yaml', report_file_path='C:\\Users\\shiva\\Desktop\\Rental_Bike_Share_Prediction-final\\Rental_Bike_Share_Prediction-main\\rental_bike_demand\\artifact\\data_validation\\2023-02-10-03-10-31\\report.json', report_page_file_path='C:\\Users\\shiva\\Desktop\\Rental_Bike_Share_Prediction-final\\Rental_Bike_Share_Prediction-main\\rental_bike_demand\\artifact\\data_validation\\2023-02-10-03-10-31\\report.html')
+[2023-02-10 03:12:37,784] root - INFO - ********************Bulk Prediction Mode Selected ********************
+[2023-02-10 03:12:37,785] root - INFO - Validatiog Passed Dataset : [Prediction_Batch_Files\Rental_Bike_Share_Data_20211231_235540.csv]
+[2023-02-10 03:12:37,794] root - INFO - Validating the schema of the dataset
+[2023-02-10 03:12:37,878] root - INFO - Schema Validation Completed
+[2023-02-10 03:12:37,878] root - INFO - Is dataset schema as per the defined schema? -> True
+[2023-02-10 03:12:37,878] root - INFO - Prediction for dataset: [Prediction_Batch_Files\Rental_Bike_Share_Data_20211231_235540.csv]
+[2023-02-10 03:12:37,906] root - INFO - Feature Engineering applied !!!
+[2023-02-10 03:12:38,037] root - INFO - Data Preprocessing Done!!!
+[2023-02-10 03:12:38,097] root - INFO - Prediction from model done
+[2023-02-10 03:12:38,097] root - INFO - Saving prediction file for sending it to the user
+[2023-02-10 03:12:38,257] root - INFO - ******************** Bulk Prediction Coomplete ********************
+[2023-02-10 03:12:38,257] root - INFO - Prediction Dataset Validation log complete
+[2023-02-10 03:12:38,268] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:12:38] "POST /bulk_predict HTTP/1.1" 200 -
+[2023-02-10 03:13:02,250] root - INFO - 
+******************** Prediction Pipeline Initiated ********************
+
+[2023-02-10 03:13:02,250] root - INFO - Data Validation config: DataValidationConfig(schema_file_path='C:\\Users\\shiva\\Desktop\\Rental_Bike_Share_Prediction-final\\Rental_Bike_Share_Prediction-main\\config\\schema.yaml', report_file_path='C:\\Users\\shiva\\Desktop\\Rental_Bike_Share_Prediction-final\\Rental_Bike_Share_Prediction-main\\rental_bike_demand\\artifact\\data_validation\\2023-02-10-03-10-31\\report.json', report_page_file_path='C:\\Users\\shiva\\Desktop\\Rental_Bike_Share_Prediction-final\\Rental_Bike_Share_Prediction-main\\rental_bike_demand\\artifact\\data_validation\\2023-02-10-03-10-31\\report.html')
+[2023-02-10 03:13:02,269] root - INFO - ******************** Single Prediction Mode Selected ********************
+[2023-02-10 03:13:02,270] root - INFO - Passed Info: [{'date': '2022-12-03', 'month': 12, 'hour': 12, 'season': 2, 'weekday': 2, 'is_holiday': 0, 'working_day': 1, 'weather_sit': 1, 'is_covid': 1, 'temp': 30.0, 'wind': 14.0, 'humidity': 15.0}]
+[2023-02-10 03:13:02,292] root - INFO - ******************** Single Prediction Complete ********************
+[2023-02-10 03:13:02,295] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:13:02] "[32mPOST /single_predict HTTP/1.1[0m" 302 -
+[2023-02-10 03:13:02,301] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:13:02] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:13:18,758] root - INFO - 
+******************** Prediction Pipeline Initiated ********************
+
+[2023-02-10 03:13:18,758] root - INFO - Data Validation config: DataValidationConfig(schema_file_path='C:\\Users\\shiva\\Desktop\\Rental_Bike_Share_Prediction-final\\Rental_Bike_Share_Prediction-main\\config\\schema.yaml', report_file_path='C:\\Users\\shiva\\Desktop\\Rental_Bike_Share_Prediction-final\\Rental_Bike_Share_Prediction-main\\rental_bike_demand\\artifact\\data_validation\\2023-02-10-03-10-31\\report.json', report_page_file_path='C:\\Users\\shiva\\Desktop\\Rental_Bike_Share_Prediction-final\\Rental_Bike_Share_Prediction-main\\rental_bike_demand\\artifact\\data_validation\\2023-02-10-03-10-31\\report.html')
+[2023-02-10 03:13:18,773] root - INFO - ********************Bulk Prediction Mode Selected ********************
+[2023-02-10 03:13:18,773] root - INFO - Validatiog Passed Dataset : [Prediction_Batch_Files\Rental_Bike_Share_Data_20211231_235540.csv]
+[2023-02-10 03:13:18,782] root - INFO - Validating the schema of the dataset
+[2023-02-10 03:13:18,852] root - INFO - Schema Validation Completed
+[2023-02-10 03:13:18,852] root - INFO - Is dataset schema as per the defined schema? -> True
+[2023-02-10 03:13:18,852] root - INFO - Prediction for dataset: [Prediction_Batch_Files\Rental_Bike_Share_Data_20211231_235540.csv]
+[2023-02-10 03:13:18,880] root - INFO - Feature Engineering applied !!!
+[2023-02-10 03:13:18,987] root - INFO - Data Preprocessing Done!!!
+[2023-02-10 03:13:19,041] root - INFO - Prediction from model done
+[2023-02-10 03:13:19,041] root - INFO - Saving prediction file for sending it to the user
+[2023-02-10 03:13:19,199] root - INFO - ******************** Bulk Prediction Coomplete ********************
+[2023-02-10 03:13:19,199] root - INFO - Prediction Dataset Validation log complete
+[2023-02-10 03:13:19,208] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:13:19] "POST /bulk_predict HTTP/1.1" 200 -
+[2023-02-10 03:14:06,501] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:14:06] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:14:14,031] root - INFO - 
+******************** Prediction Pipeline Initiated ********************
+
+[2023-02-10 03:14:14,031] root - INFO - Data Validation config: DataValidationConfig(schema_file_path='C:\\Users\\shiva\\Desktop\\Rental_Bike_Share_Prediction-final\\Rental_Bike_Share_Prediction-main\\config\\schema.yaml', report_file_path='C:\\Users\\shiva\\Desktop\\Rental_Bike_Share_Prediction-final\\Rental_Bike_Share_Prediction-main\\rental_bike_demand\\artifact\\data_validation\\2023-02-10-03-10-31\\report.json', report_page_file_path='C:\\Users\\shiva\\Desktop\\Rental_Bike_Share_Prediction-final\\Rental_Bike_Share_Prediction-main\\rental_bike_demand\\artifact\\data_validation\\2023-02-10-03-10-31\\report.html')
+[2023-02-10 03:14:14,046] root - INFO - ********************Bulk Prediction Mode Selected ********************
+[2023-02-10 03:14:14,046] root - INFO - Validatiog Passed Dataset : [Prediction_Batch_Files\Rental_Bike_Share_Data_20211231_235540.csv]
+[2023-02-10 03:14:14,055] root - INFO - Validating the schema of the dataset
+[2023-02-10 03:14:14,123] root - INFO - Schema Validation Completed
+[2023-02-10 03:14:14,124] root - INFO - Is dataset schema as per the defined schema? -> True
+[2023-02-10 03:14:14,124] root - INFO - Prediction for dataset: [Prediction_Batch_Files\Rental_Bike_Share_Data_20211231_235540.csv]
+[2023-02-10 03:14:14,157] root - INFO - Feature Engineering applied !!!
+[2023-02-10 03:14:14,307] root - INFO - Data Preprocessing Done!!!
+[2023-02-10 03:14:14,361] root - INFO - Prediction from model done
+[2023-02-10 03:14:14,362] root - INFO - Saving prediction file for sending it to the user
+[2023-02-10 03:14:14,514] root - INFO - ******************** Bulk Prediction Coomplete ********************
+[2023-02-10 03:14:14,514] root - INFO - Prediction Dataset Validation log complete
+[2023-02-10 03:14:14,523] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:14:14] "POST /bulk_predict HTTP/1.1" 200 -
+[2023-02-10 03:14:16,796] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:14:16] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:15:06,049] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:15:06] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:15:06,484] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:15:06] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:15:06,691] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:15:06] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:15:07,003] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:15:07] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:15:07,285] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:15:07] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:15:07,460] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:15:07] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:15:41,786] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:15:41] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:15:43,654] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:15:43] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:15:43,842] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:15:43] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:15:44,011] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:15:44] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:15:44,332] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:15:44] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:15:44,530] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:15:44] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:16:22,385] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:16:22] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:16:23,022] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:16:23] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:16:23,202] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:16:23] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:16:23,512] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:16:23] "GET / HTTP/1.1" 200 -

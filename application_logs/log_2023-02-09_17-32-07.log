@@ -1,0 +1,16 @@
+[2023-02-09 17:32:08,761] root - INFO - Training Pipeline Config: TrainingPipelineConfig(artifact_dir='D:\\Project\\class project\\Rental_Bike_Share_Prediction-final\\Rental_Bike_Share_Prediction-main\\rental_bike_demand\\artifact')
+[2023-02-09 17:32:09,421] root - INFO - Training Pipeline Config: TrainingPipelineConfig(artifact_dir='D:\\Project\\class project\\Rental_Bike_Share_Prediction-final\\Rental_Bike_Share_Prediction-main\\rental_bike_demand\\artifact')
+[2023-02-09 17:32:09,421] werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.100:5000
+[2023-02-09 17:32:09,421] werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2023-02-09 17:32:09,437] werkzeug - INFO -  * Restarting with stat
+[2023-02-09 17:34:42,860] werkzeug - INFO -  * Restarting with stat
+[2023-02-09 17:34:49,731] werkzeug - INFO -  * Restarting with stat
+[2023-02-09 17:35:24,777] werkzeug - INFO -  * Restarting with stat
+[2023-02-09 17:38:30,486] werkzeug - INFO -  * Restarting with stat
+[2023-02-09 17:38:34,156] werkzeug - INFO -  * Restarting with stat
+[2023-02-09 17:38:40,944] werkzeug - INFO -  * Restarting with stat
+[2023-02-09 17:38:45,824] werkzeug - INFO -  * Restarting with stat
+[2023-02-09 17:38:59,619] werkzeug - INFO -  * Restarting with stat

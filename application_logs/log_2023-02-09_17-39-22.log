@@ -1,0 +1,72 @@
+[2023-02-09 17:39:24,715] root - INFO - Training Pipeline Config: TrainingPipelineConfig(artifact_dir='D:\\Project\\class project\\Rental_Bike_Share_Prediction-final\\Rental_Bike_Share_Prediction-main\\rental_bike_demand\\artifact')
+[2023-02-09 17:39:25,646] root - INFO - Training Pipeline Config: TrainingPipelineConfig(artifact_dir='D:\\Project\\class project\\Rental_Bike_Share_Prediction-final\\Rental_Bike_Share_Prediction-main\\rental_bike_demand\\artifact')
+[2023-02-09 17:39:25,656] werkzeug - WARNING -  * Debugger is active!
+[2023-02-09 17:39:25,666] werkzeug - INFO -  * Debugger PIN: 197-042-164
+[2023-02-09 17:39:25,787] werkzeug - INFO - 127.0.0.1 - - [09/Feb/2023 17:39:25] "GET / HTTP/1.1" 200 -
+[2023-02-09 17:40:00,325] root - INFO - 
+******************** Prediction Pipeline Initiated ********************
+
+[2023-02-09 17:40:00,325] root - INFO - Data Validation config: DataValidationConfig(schema_file_path='D:\\Project\\class project\\Rental_Bike_Share_Prediction-final\\Rental_Bike_Share_Prediction-main\\config\\schema.yaml', report_file_path='D:\\Project\\class project\\Rental_Bike_Share_Prediction-final\\Rental_Bike_Share_Prediction-main\\rental_bike_demand\\artifact\\data_validation\\2023-02-09-17-39-23\\report.json', report_page_file_path='D:\\Project\\class project\\Rental_Bike_Share_Prediction-final\\Rental_Bike_Share_Prediction-main\\rental_bike_demand\\artifact\\data_validation\\2023-02-09-17-39-23\\report.html')
+[2023-02-09 17:40:00,493] root - INFO - ******************** Single Prediction Mode Selected ********************
+[2023-02-09 17:40:00,494] root - INFO - Passed Info: [{'date': '2022-12-03', 'month': 12, 'hour': 12, 'season': 2, 'weekday': 2, 'is_holiday': 0, 'working_day': 1, 'weather_sit': 1, 'is_covid': 0, 'temp': 30.0, 'wind': 14.0, 'humidity': 15.0}]
+[2023-02-09 17:40:00,542] root - INFO - ******************** Single Prediction Complete ********************
+[2023-02-09 17:40:00,546] werkzeug - INFO - 127.0.0.1 - - [09/Feb/2023 17:40:00] "[32mPOST /single_predict HTTP/1.1[0m" 302 -
+[2023-02-09 17:40:00,553] werkzeug - INFO - 127.0.0.1 - - [09/Feb/2023 17:40:00] "GET / HTTP/1.1" 200 -
+[2023-02-09 17:40:06,743] root - INFO - 
+******************** Prediction Pipeline Initiated ********************
+
+[2023-02-09 17:40:06,743] root - INFO - Data Validation config: DataValidationConfig(schema_file_path='D:\\Project\\class project\\Rental_Bike_Share_Prediction-final\\Rental_Bike_Share_Prediction-main\\config\\schema.yaml', report_file_path='D:\\Project\\class project\\Rental_Bike_Share_Prediction-final\\Rental_Bike_Share_Prediction-main\\rental_bike_demand\\artifact\\data_validation\\2023-02-09-17-39-23\\report.json', report_page_file_path='D:\\Project\\class project\\Rental_Bike_Share_Prediction-final\\Rental_Bike_Share_Prediction-main\\rental_bike_demand\\artifact\\data_validation\\2023-02-09-17-39-23\\report.html')
+[2023-02-09 17:40:06,763] root - INFO - ********************Bulk Prediction Mode Selected ********************
+[2023-02-09 17:40:06,764] root - INFO - Validatiog Passed Dataset : [Prediction_Batch_Files\Rental_Bike_Share_Data_20201231_235040.csv]
+[2023-02-09 17:40:06,772] root - INFO - Validating the schema of the dataset
+[2023-02-09 17:40:06,847] root - INFO - Schema Validation Completed
+[2023-02-09 17:40:06,847] root - INFO - Is dataset schema as per the defined schema? -> True
+[2023-02-09 17:40:06,847] root - INFO - Prediction for dataset: [Prediction_Batch_Files\Rental_Bike_Share_Data_20201231_235040.csv]
+[2023-02-09 17:40:06,872] root - INFO - Feature Engineering applied !!!
+[2023-02-09 17:40:06,999] root - INFO - Data Preprocessing Done!!!
+[2023-02-09 17:40:07,058] root - INFO - Prediction from model done
+[2023-02-09 17:40:07,058] root - INFO - Saving prediction file for sending it to the user
+[2023-02-09 17:40:07,072] root - ERROR - 
+        Error occured in script: [D:\Project\class project\Rental_Bike_Share_Prediction-final\Rental_Bike_Share_Prediction-main\Prediction_Application\pipeline\prediction_pipeline.py] at 
+        line number: [96] 
+        error message: [
+        Error occured in script: [D:\Project\class project\Rental_Bike_Share_Prediction-final\Rental_Bike_Share_Prediction-main\Prediction_Application\util\util.py] at 
+        line number: [45] 
+        error message: [[WinError 5] Access is denied: 'D:\\Project\\class project\\Rental_Bike_Share_Prediction-final\\Rental_Bike_Share_Prediction-main\\Output Folder\\2023-02-09-17-39-23']]
+[2023-02-09 17:40:07,072] root - INFO - Prediction Dataset Validation log complete
+[2023-02-09 17:40:07,076] werkzeug - INFO - 127.0.0.1 - - [09/Feb/2023 17:40:07] "[32mPOST /bulk_predict HTTP/1.1[0m" 302 -
+[2023-02-09 17:40:07,083] werkzeug - INFO - 127.0.0.1 - - [09/Feb/2023 17:40:07] "GET / HTTP/1.1" 200 -
+[2023-02-09 17:40:26,660] root - INFO - 
+******************** Prediction Pipeline Initiated ********************
+
+[2023-02-09 17:40:26,660] root - INFO - Data Validation config: DataValidationConfig(schema_file_path='D:\\Project\\class project\\Rental_Bike_Share_Prediction-final\\Rental_Bike_Share_Prediction-main\\config\\schema.yaml', report_file_path='D:\\Project\\class project\\Rental_Bike_Share_Prediction-final\\Rental_Bike_Share_Prediction-main\\rental_bike_demand\\artifact\\data_validation\\2023-02-09-17-39-23\\report.json', report_page_file_path='D:\\Project\\class project\\Rental_Bike_Share_Prediction-final\\Rental_Bike_Share_Prediction-main\\rental_bike_demand\\artifact\\data_validation\\2023-02-09-17-39-23\\report.html')
+[2023-02-09 17:40:26,677] root - INFO - ********************Bulk Prediction Mode Selected ********************
+[2023-02-09 17:40:26,678] root - INFO - Validatiog Passed Dataset : [Prediction_Batch_Files\Rental_Bike_Share_Data_20211231_235540.csv]
+[2023-02-09 17:40:26,687] root - INFO - Validating the schema of the dataset
+[2023-02-09 17:40:26,757] root - INFO - Schema Validation Completed
+[2023-02-09 17:40:26,757] root - INFO - Is dataset schema as per the defined schema? -> True
+[2023-02-09 17:40:26,757] root - INFO - Prediction for dataset: [Prediction_Batch_Files\Rental_Bike_Share_Data_20211231_235540.csv]
+[2023-02-09 17:40:26,785] root - INFO - Feature Engineering applied !!!
+[2023-02-09 17:40:26,904] root - INFO - Data Preprocessing Done!!!
+[2023-02-09 17:40:26,978] root - INFO - Prediction from model done
+[2023-02-09 17:40:26,979] root - INFO - Saving prediction file for sending it to the user
+[2023-02-09 17:40:27,328] root - INFO - ******************** Bulk Prediction Coomplete ********************
+[2023-02-09 17:40:27,328] root - INFO - Prediction Dataset Validation log complete
+[2023-02-09 17:40:27,339] werkzeug - INFO - 127.0.0.1 - - [09/Feb/2023 17:40:27] "POST /bulk_predict HTTP/1.1" 200 -
+[2023-02-09 17:40:38,797] root - INFO - 
+******************** Prediction Pipeline Initiated ********************
+
+[2023-02-09 17:40:38,797] root - INFO - Data Validation config: DataValidationConfig(schema_file_path='D:\\Project\\class project\\Rental_Bike_Share_Prediction-final\\Rental_Bike_Share_Prediction-main\\config\\schema.yaml', report_file_path='D:\\Project\\class project\\Rental_Bike_Share_Prediction-final\\Rental_Bike_Share_Prediction-main\\rental_bike_demand\\artifact\\data_validation\\2023-02-09-17-39-23\\report.json', report_page_file_path='D:\\Project\\class project\\Rental_Bike_Share_Prediction-final\\Rental_Bike_Share_Prediction-main\\rental_bike_demand\\artifact\\data_validation\\2023-02-09-17-39-23\\report.html')
+[2023-02-09 17:40:38,816] root - INFO - ********************Bulk Prediction Mode Selected ********************
+[2023-02-09 17:40:38,816] root - INFO - Validatiog Passed Dataset : [Prediction_Batch_Files\Rental_Bike_Share_Data_20211231_235540.csv]
+[2023-02-09 17:40:38,825] root - INFO - Validating the schema of the dataset
+[2023-02-09 17:40:38,891] root - INFO - Schema Validation Completed
+[2023-02-09 17:40:38,891] root - INFO - Is dataset schema as per the defined schema? -> True
+[2023-02-09 17:40:38,891] root - INFO - Prediction for dataset: [Prediction_Batch_Files\Rental_Bike_Share_Data_20211231_235540.csv]
+[2023-02-09 17:40:38,924] root - INFO - Feature Engineering applied !!!
+[2023-02-09 17:40:39,038] root - INFO - Data Preprocessing Done!!!
+[2023-02-09 17:40:39,092] root - INFO - Prediction from model done
+[2023-02-09 17:40:39,092] root - INFO - Saving prediction file for sending it to the user
+[2023-02-09 17:40:40,174] root - INFO - ******************** Bulk Prediction Coomplete ********************
+[2023-02-09 17:40:40,174] root - INFO - Prediction Dataset Validation log complete
+[2023-02-09 17:40:40,188] werkzeug - INFO - 127.0.0.1 - - [09/Feb/2023 17:40:40] "POST /bulk_predict HTTP/1.1" 200 -

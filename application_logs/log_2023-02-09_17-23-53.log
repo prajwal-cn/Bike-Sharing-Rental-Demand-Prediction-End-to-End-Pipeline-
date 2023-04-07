@@ -1,0 +1,35 @@
+[2023-02-09 17:23:54,649] root - INFO - Training Pipeline Config: TrainingPipelineConfig(artifact_dir='D:\\Project\\class project\\Rental_Bike_Share_Prediction-final\\Rental_Bike_Share_Prediction-main\\rental_bike_demand\\artifact')
+[2023-02-09 17:23:55,710] root - INFO - Training Pipeline Config: TrainingPipelineConfig(artifact_dir='D:\\Project\\class project\\Rental_Bike_Share_Prediction-final\\Rental_Bike_Share_Prediction-main\\rental_bike_demand\\artifact')
+[2023-02-09 17:23:55,724] werkzeug - WARNING -  * Debugger is active!
+[2023-02-09 17:23:55,733] werkzeug - INFO -  * Debugger PIN: 197-042-164
+[2023-02-09 17:23:58,601] werkzeug - INFO - 127.0.0.1 - - [09/Feb/2023 17:23:58] "GET / HTTP/1.1" 200 -
+[2023-02-09 17:24:19,465] root - ERROR - invalid literal for int() with base 10: 'Select'
+[2023-02-09 17:24:19,466] werkzeug - INFO - 127.0.0.1 - - [09/Feb/2023 17:24:19] "[32mPOST /single_predict HTTP/1.1[0m" 302 -
+[2023-02-09 17:24:19,772] werkzeug - INFO - 127.0.0.1 - - [09/Feb/2023 17:24:19] "GET / HTTP/1.1" 200 -
+[2023-02-09 17:24:45,053] root - INFO - 
+******************** Prediction Pipeline Initiated ********************
+
+[2023-02-09 17:24:45,053] root - INFO - Data Validation config: DataValidationConfig(schema_file_path='D:\\Project\\class project\\Rental_Bike_Share_Prediction-final\\Rental_Bike_Share_Prediction-main\\config\\schema.yaml', report_file_path='D:\\Project\\class project\\Rental_Bike_Share_Prediction-final\\Rental_Bike_Share_Prediction-main\\rental_bike_demand\\artifact\\data_validation\\2023-02-09-17-23-53\\report.json', report_page_file_path='D:\\Project\\class project\\Rental_Bike_Share_Prediction-final\\Rental_Bike_Share_Prediction-main\\rental_bike_demand\\artifact\\data_validation\\2023-02-09-17-23-53\\report.html')
+[2023-02-09 17:24:45,113] root - INFO - ******************** Single Prediction Mode Selected ********************
+[2023-02-09 17:24:45,114] root - INFO - Passed Info: [{'date': '2018-02-05', 'month': 2, 'hour': 12, 'season': 1, 'weekday': 2, 'is_holiday': 0, 'working_day': 1, 'weather_sit': 1, 'is_covid': 0, 'temp': 30.0, 'wind': 14.0, 'humidity': 15.0}]
+[2023-02-09 17:24:45,148] root - INFO - ******************** Single Prediction Complete ********************
+[2023-02-09 17:24:45,149] werkzeug - INFO - 127.0.0.1 - - [09/Feb/2023 17:24:45] "[32mPOST /single_predict HTTP/1.1[0m" 302 -
+[2023-02-09 17:24:45,155] werkzeug - INFO - 127.0.0.1 - - [09/Feb/2023 17:24:45] "GET / HTTP/1.1" 200 -
+[2023-02-09 17:25:53,551] root - INFO - 
+******************** Prediction Pipeline Initiated ********************
+
+[2023-02-09 17:25:53,551] root - INFO - Data Validation config: DataValidationConfig(schema_file_path='D:\\Project\\class project\\Rental_Bike_Share_Prediction-final\\Rental_Bike_Share_Prediction-main\\config\\schema.yaml', report_file_path='D:\\Project\\class project\\Rental_Bike_Share_Prediction-final\\Rental_Bike_Share_Prediction-main\\rental_bike_demand\\artifact\\data_validation\\2023-02-09-17-23-53\\report.json', report_page_file_path='D:\\Project\\class project\\Rental_Bike_Share_Prediction-final\\Rental_Bike_Share_Prediction-main\\rental_bike_demand\\artifact\\data_validation\\2023-02-09-17-23-53\\report.html')
+[2023-02-09 17:25:53,566] root - INFO - ********************Bulk Prediction Mode Selected ********************
+[2023-02-09 17:25:53,566] root - INFO - Validatiog Passed Dataset : [Prediction_Batch_Files\Rental_Bike_Share_Data_20201231_235040.csv]
+[2023-02-09 17:25:53,575] root - INFO - Validating the schema of the dataset
+[2023-02-09 17:25:53,647] root - INFO - Schema Validation Completed
+[2023-02-09 17:25:53,647] root - INFO - Is dataset schema as per the defined schema? -> True
+[2023-02-09 17:25:53,647] root - INFO - Prediction for dataset: [Prediction_Batch_Files\Rental_Bike_Share_Data_20201231_235040.csv]
+[2023-02-09 17:25:53,677] root - INFO - Feature Engineering applied !!!
+[2023-02-09 17:25:53,797] root - INFO - Data Preprocessing Done!!!
+[2023-02-09 17:25:53,852] root - INFO - Prediction from model done
+[2023-02-09 17:25:53,852] root - INFO - Saving prediction file for sending it to the user
+[2023-02-09 17:25:54,139] root - INFO - ******************** Bulk Prediction Coomplete ********************
+[2023-02-09 17:25:54,139] root - INFO - Prediction Dataset Validation log complete
+[2023-02-09 17:25:54,150] werkzeug - INFO - 127.0.0.1 - - [09/Feb/2023 17:25:54] "POST /bulk_predict HTTP/1.1" 200 -
+[2023-02-09 17:28:09,801] werkzeug - INFO - 127.0.0.1 - - [09/Feb/2023 17:28:09] "GET / HTTP/1.1" 200 -

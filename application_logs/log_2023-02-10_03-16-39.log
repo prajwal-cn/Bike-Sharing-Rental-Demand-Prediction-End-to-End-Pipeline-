@@ -1,0 +1,108 @@
+[2023-02-10 03:16:40,623] root - INFO - Training Pipeline Config: TrainingPipelineConfig(artifact_dir='C:\\Users\\shiva\\Desktop\\Rental_Bike_Share_Prediction-final\\Rental_Bike_Share_Prediction-main\\rental_bike_demand\\artifact')
+[2023-02-10 03:16:41,428] root - INFO - Training Pipeline Config: TrainingPipelineConfig(artifact_dir='C:\\Users\\shiva\\Desktop\\Rental_Bike_Share_Prediction-final\\Rental_Bike_Share_Prediction-main\\rental_bike_demand\\artifact')
+[2023-02-10 03:16:41,441] werkzeug - WARNING -  * Debugger is active!
+[2023-02-10 03:16:41,446] werkzeug - INFO -  * Debugger PIN: 197-042-164
+[2023-02-10 03:16:41,791] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:16:41] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:18:56,089] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:18:56] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:18:58,287] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:18:58] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:19:06,360] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:19:06] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:19:09,017] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:19:09] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:19:58,534] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:19:58] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:20:09,065] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:20:09] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:20:23,675] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:20:23] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:20:24,579] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:20:24] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:20:25,099] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:20:25] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:20:25,421] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:20:25] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:20:25,576] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:20:25] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:20:36,568] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:20:36] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:20:46,197] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:20:46] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:21:19,461] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:21:19] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:22:40,923] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:22:40] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:22:47,244] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:22:47] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:22:47,379] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:22:47] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:22:47,544] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:22:47] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:22:55,265] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:22:55] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:22:57,381] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:22:57] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:22:57,557] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:22:57] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:22:57,867] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:22:57] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:23:30,303] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:23:30] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:24:26,190] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:24:26] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:24:27,759] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:24:27] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:24:28,386] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:24:28] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:24:28,703] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:24:28] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:24:49,154] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:24:49] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:24:49,728] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:24:49] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:24:49,885] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:24:49] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:24:50,191] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:24:50] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:24:50,339] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:24:50] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:24:50,651] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:24:50] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:24:50,810] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:24:50] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:24:51,124] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:24:51] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:24:51,282] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:24:51] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:25:13,954] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:25:13] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:25:14,341] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:25:14] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:25:14,523] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:25:14] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:25:14,833] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:25:14] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:25:15,021] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:25:15] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:25:15,334] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:25:15] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:25:15,511] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:25:15] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:25:15,821] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:25:15] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:25:15,997] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:25:15] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:25:16,305] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:25:16] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:25:16,512] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:25:16] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:25:16,825] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:25:16] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:25:54,444] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:25:54] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:25:54,746] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:25:54] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:25:55,638] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:25:55] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:25:55,950] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:25:55] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:25:56,168] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:25:56] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:26:19,715] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:26:19] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:26:21,097] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:26:21] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:26:21,312] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:26:21] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:26:21,628] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:26:21] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:26:21,777] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:26:21] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:26:22,100] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:26:22] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:26:22,259] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:26:22] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:26:22,575] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:26:22] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:26:22,745] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:26:22] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:26:59,621] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:26:59] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:27:55,042] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:27:55] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:27:55,607] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:27:55] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:27:55,786] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:27:55] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:27:56,101] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:27:56] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:27:56,275] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:27:56] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:27:56,593] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:27:56] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:27:56,798] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:27:56] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:28:13,426] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:28:13] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:28:28,732] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:28:28] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:29:18,197] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:29:18] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:29:18,434] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:29:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2023-02-10 03:29:33,808] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:29:33] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:31:22,782] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:31:22] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:34:03,949] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:34:03] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:34:08,744] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:34:08] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:34:10,947] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:34:10] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:34:11,408] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:34:11] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:34:11,721] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:34:11] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:35:21,144] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:35:21] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:35:30,121] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:35:30] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:35:39,964] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:35:39] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:35:51,823] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:35:51] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:37:28,112] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:37:28] "GET / HTTP/1.1" 200 -
+[2023-02-10 03:37:36,040] root - INFO - 
+******************** Prediction Pipeline Initiated ********************
+
+[2023-02-10 03:37:36,040] root - INFO - Data Validation config: DataValidationConfig(schema_file_path='C:\\Users\\shiva\\Desktop\\Rental_Bike_Share_Prediction-final\\Rental_Bike_Share_Prediction-main\\config\\schema.yaml', report_file_path='C:\\Users\\shiva\\Desktop\\Rental_Bike_Share_Prediction-final\\Rental_Bike_Share_Prediction-main\\rental_bike_demand\\artifact\\data_validation\\2023-02-10-03-16-39\\report.json', report_page_file_path='C:\\Users\\shiva\\Desktop\\Rental_Bike_Share_Prediction-final\\Rental_Bike_Share_Prediction-main\\rental_bike_demand\\artifact\\data_validation\\2023-02-10-03-16-39\\report.html')
+[2023-02-10 03:37:36,155] root - INFO - ********************Bulk Prediction Mode Selected ********************
+[2023-02-10 03:37:36,156] root - INFO - Validatiog Passed Dataset : [Prediction_Batch_Files\Rental_Bike_Share_Data_20211231_235540.csv]
+[2023-02-10 03:37:36,165] root - INFO - Validating the schema of the dataset
+[2023-02-10 03:37:36,243] root - INFO - Schema Validation Completed
+[2023-02-10 03:37:36,243] root - INFO - Is dataset schema as per the defined schema? -> True
+[2023-02-10 03:37:36,243] root - INFO - Prediction for dataset: [Prediction_Batch_Files\Rental_Bike_Share_Data_20211231_235540.csv]
+[2023-02-10 03:37:36,268] root - INFO - Feature Engineering applied !!!
+[2023-02-10 03:37:36,422] root - INFO - Data Preprocessing Done!!!
+[2023-02-10 03:37:36,489] root - INFO - Prediction from model done
+[2023-02-10 03:37:36,489] root - INFO - Saving prediction file for sending it to the user
+[2023-02-10 03:37:36,641] root - INFO - ******************** Bulk Prediction Coomplete ********************
+[2023-02-10 03:37:36,641] root - INFO - Prediction Dataset Validation log complete
+[2023-02-10 03:37:36,655] werkzeug - INFO - 127.0.0.1 - - [10/Feb/2023 03:37:36] "POST /bulk_predict HTTP/1.1" 200 -
